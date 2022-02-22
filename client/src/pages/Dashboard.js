@@ -74,7 +74,7 @@ const Dashboard = () => {
                 <div>Loading....</div>
             ) : 
             <div className="container mt-3">
-            <h1 className="text-justify mb-4">The Blogstar Blog</h1>
+            <h1 className="text-justify mb-4">All the courses</h1>
             {
                 data && data.length > 0 ? 
                     data.map((item, index) => {
